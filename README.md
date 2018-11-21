@@ -37,4 +37,4 @@ In Powershell it would be something like `python .\main.py quadtabdump`
 
 ## Acknowledgement
 
-Path of Exile stash API is provided by (Grinding Gear Games)[http://www.pathofexile.com/developer/docs/api-resources]. Item value rate is provided by [poe.ninja](https://poe.ninja/)
+Path of Exile stash API is provided by [Grinding Gear Games](http://www.pathofexile.com/developer/docs/api-resources). Item value rate is provided by [poe.ninja](https://poe.ninja/)
