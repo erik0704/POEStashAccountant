@@ -4,13 +4,11 @@ POEStashAccountant is a lightweight Path of Exile tool to calculate your private
 
 ## Requirements
 
-Python 3.3+ installed.
+Have a browser. Yeah that's about it.
 
 ## Installation
 
-```bash
-pip install -r requirements.txt
-```
+Download the [lastest release](https://github.com/erik0704/POEStashAccountant/releases) and unpack.
 
 ## Configuration (*important*)
 
@@ -22,18 +20,8 @@ pip install -r requirements.txt
 
 Currently the program can only analyse one stash tab at a time. The stash tab should have a unique name among all your other tabs in that league.
 
-### On Windows
-```python
-python main.py [your_stash_tab_name]
-```
-
-Above is the script running in Command Prompt. 
-In Powershell it would be something like `python .\main.py quadtabdump`
-
-### On Linux
-```terminal
-# python ./main.py my_currency_tab
-```
+1. Open terminal (Command Prompt or Powershell for Windows or Linux terminal)
+2. Run `.\POEStashAccountant.exe` (Powershell) or `POEStashAccountant.exe` (Command Prompt) or `#POEStashAccountant.exe` (Linux)
 
 ## Acknowledgement
 
