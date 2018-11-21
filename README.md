@@ -20,7 +20,7 @@ Download the [lastest release](https://github.com/erik0704/POEStashAccountant/re
 
 Currently the program can only analyse one stash tab at a time. The stash tab should have a unique name among all your other tabs in that league.
 
-1. Open terminal (Command Prompt or Powershell for Windows or Linux terminal)
+1. Open terminal (Command Prompt or Powershell for Windows or Linux terminal). Double click the executable will __not__ work.
 2. Run `.\POEStashAccountant.exe` (Powershell) or `POEStashAccountant.exe` (Command Prompt) or `#POEStashAccountant.exe` (Linux)
 
 ## Acknowledgement
