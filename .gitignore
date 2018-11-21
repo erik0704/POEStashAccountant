@@ -11,5 +11,5 @@ ENV/
 env.bak/
 venv.bak/
 
-# temp file
+# Dev temp folder
 /ninjadata
