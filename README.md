@@ -1,6 +1,6 @@
 # Overview
 
-POEStashAccountant is a lightweight Path of Exile tool to calculate your private stash networth, inspired by Currency Cop.
+POEStashAccountant is a lightweight Path of Exile tool to calculate your private stash networth, inspired by [Currency Cop](https://github.com/currency-cop/currency-cop).
 
 ## Requirements
 
@@ -27,7 +27,7 @@ Currently the program can only analyse one stash tab at a time. The stash tab sh
 python main.py [your_stash_tab_name]
 ```
 
-Above is the script running in CMD. 
+Above is the script running in Command Prompt. 
 In Powershell it would be something like `python .\main.py quadtabdump`
 
 ### On Linux
@@ -37,4 +37,4 @@ In Powershell it would be something like `python .\main.py quadtabdump`
 
 ## Acknowledgement
 
-Path of Exile stash API is provided by Grinding Gear Game. Item value rate is provided by [poe.ninja](https://poe.ninja/)
+Path of Exile stash API is provided by (Grinding Gear Games)[http://www.pathofexile.com/developer/docs/api-resources]. Item value rate is provided by [poe.ninja](https://poe.ninja/)
