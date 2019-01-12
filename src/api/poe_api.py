@@ -8,7 +8,7 @@ def stash_api_load_items(id, settings):
         url = settings["stashUrl"], league = settings["league"], acc_name = settings["accountName"], id = id)
 
     try:
-        req = requests.get(url, timeout = 5, cookies = {"POESESSID": settings["sessionId"]})
+        req = requests.get(url, timeout = 5, headers = {'Cookie': 'POESESSID={sess_id}'.format(sess_id = settings["sessionId"])})
     except Exception as error:
         print(error)
         print("Timeout while trying to access POE API stash items")
@@ -20,7 +20,7 @@ def find_stash_tab_id(name, settings):
     url = "{url}league={league}&accountName={acc_name}&tabs=1".format(
         url = settings["stashUrl"], league = settings["league"], acc_name = settings["accountName"])
     try:
-        req = requests.get(url, timeout = 5, cookies = {"POESESSID": settings["sessionId"]})
+        req = requests.get(url, timeout = 5, headers = {'Cookie': 'POESESSID={sess_id}'.format(sess_id = settings["sessionId"])})
     except Exception as error:
         print(error)
         print("Timeout while trying to access POE API at finding tab id")

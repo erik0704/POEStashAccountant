@@ -31,6 +31,12 @@ def get_divcard_overview(settings):
     # file_name = "ninja_divcard_data.json"
     return ninja_api_call(url, file_name)()
 
+def get_map_overview(settings):
+    url = "{base}GetMapOverview?league={league}".format(base = settings["poeninjaBaseUrl"], league = settings["league"])
+    file_name = ""
+    # file_name = "ninja_map_data.json"
+    return ninja_api_call(url, file_name)()
+
 def get_fragment_overview(settings):
     url = "{base}GetFragmentOverview?league={league}".format(base = settings["poeninjaBaseUrl"], league = settings["league"])
     file_name = ""
